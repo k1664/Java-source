@@ -42,7 +42,5 @@ public class SwitchTest {
         }
         // int result = case로 num1과 num2의 연산을 넣고 마무리로
         // System.out.printf("%d %s %d = %d", num1, operator, num2 , result);
-
     }
-
 }
