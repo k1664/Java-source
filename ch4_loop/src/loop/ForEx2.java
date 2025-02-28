@@ -12,7 +12,7 @@ public class ForEx2 {
         for (int i = 1; i < 11; i++) {
             System.out.print(i + " ");
         }
-        
+
         System.out.println();
 
         // 10~1
@@ -25,14 +25,24 @@ public class ForEx2 {
         // 짝수만 출력 1~10
         for (int i = 1; i < 11; i++) {
             // i가 짝수이면 출력
-            if(i % 2 == 0){
+            if (i % 2 == 0) {
                 System.out.print(i + " ");
-            }    
+            }
         }
-        
-        // i += 2    ==  i = i + 2
+
+        // i += 2 == i = i + 2
         for (int i = 2; i < 11; i += 2) {
             System.out.print(i + " ");
         }
+
+        int i = 0;
+        for (int j = 0, k = 1; i < args.length; i++) {
+
+        }
+
+        // for (; ; ) {
+
+        // }
+
     }
 }

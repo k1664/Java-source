@@ -8,6 +8,5 @@ public class WhileEx4 {
             System.out.printf("7 * %d = %d\n", i, (7 * i));
             i++;
         }
-
     }
 }
