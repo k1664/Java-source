@@ -37,26 +37,29 @@ public class Student {
 
     // 기능 : 전화번호를 변경한다. 이메일을 변경한다. 학년을 변경, 반을 변경
     // 메소드 : 리턴타입 메소드명(){}
-    void changeTel() {
-
+    // 리턴(반환) 타입 : 기본타입(int, String, boolean, float 등등), 객체(대문자로 시작), 배열, void(리턴타입
+    // 없음)
+    void changeTel(String phone) {
+        // this : 멤버변수 앞, 멤버 메소드 앞
+        this.phone = phone;
     }
 
-    void changeEmail() {
-
+    void changeEmail(String email) {
+        this.email = email;
     }
 
-    void changeGrade() {
-
+    void changeGrade(int grade) {
+        this.grade = grade;
     }
 
-    void changeClassNum() {
-
+    void changeClassNum(int classNum) {
+        this.classNum = classNum;
     }
 
     @Override
     public String toString() {
         return "Student [stuId=" + stuId + ", name=" + name + ", grade=" + grade + ", classNum=" + classNum + ", phone="
-                + phone + ", email=" + email + "]";
+                + phone + ", email=" + email + "]"; // 입력은 받지 않고 toString을 받으면 return을 출력한다.
     }
 
 }
