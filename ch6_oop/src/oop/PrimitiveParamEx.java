@@ -20,11 +20,11 @@ public class PrimitiveParamEx {
 
     static void change(int x) {
         x = 10000;
-        System.out.println("change() : x = " + x);
+        System.out.println("change() : x = " + x); // 값이 넘어가고 리턴되면 주소에 있는 값은 변함없음
     }
 
     static void change2(Data d) {
         d.x = 10000;
-        System.out.println("change() : x = " + d.x);
+        System.out.println("change() : x = " + d.x); // 주소가 넘어가고 바뀜
     }
 }
