@@ -2,7 +2,7 @@ package oop;
 
 public class AccountEx {
     public static void main(String[] args) {
-        Account account = new Account("110-11", 1000000, "홍길동");
+        Account account = new Account();
 
         // 200,000 입금
         account.deposit(200000);
