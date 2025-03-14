@@ -1,0 +1,29 @@
+package api.opbject;
+
+public class Value {
+    int value;
+
+    public Value(int value) {
+        this.value = value;
+    }
+
+    // 값비교
+    @Override
+    public boolean equals(Object obj) {
+        Value v = (Value) obj;
+
+        return this.value == v.value;
+    }
+
+    @Override
+    public String toString() {
+        return "Value [value=" + value + "]";
+    }
+
+    // toString() : 멤버 변수 값 출력 용도로 재정의
+    // @Override
+    // public String toString() {
+    // return value + "";
+    // }
+
+}
